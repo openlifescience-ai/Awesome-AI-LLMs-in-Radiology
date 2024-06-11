@@ -21,3 +21,32 @@
 1. [Papers](#papers)  
 2. [Models](#models)
 3. [datasets](#datasets)
+
+
+## Radiology Report Generation
+
+## Papers
+
+- **MAIRA-1: A specialised large multimodal model for radiology report generation**
+  - Stephanie L. Hyland et al., 2023
+  - [[Paper]](https://arxiv.org/abs/2311.13668)
+  
+- **MAIRA-2: Grounded Radiology Report Generation**
+  - Shruthi Bannur et al., 2024
+  - [[Paper]](https://arxiv.org/abs/2406.04449)
+ 
+- **ORGAN: Observation-Guided Radiology Report Generation via Tree Reasoning**
+  - Wenjun Hou, Kaishuai Xu, Yi Cheng, Wenjie Li, Jiang Liu
+  - [[Paper]](https://aclanthology.org/2023.acl-long.451/)
+ 
+- **Style-Aware Radiology Report Generation with RadGraph and Few-Shot Prompting**
+  - Benjamin Yan et al., 2023
+  - [[Paper]](https://arxiv.org/abs/2310.17811)
+ 
+
+
+## datasets
+
+- **Radiology Report Expert Evaluation (ReXVal) Dataset**
+  - Feiyang Yu et al., 2023
+  - [[Dataset]](https://www.physionet.org/content/rexval-dataset/1.0.0/)
