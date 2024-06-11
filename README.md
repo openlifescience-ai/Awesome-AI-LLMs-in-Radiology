@@ -1,6 +1,6 @@
 # Awesome-AI-in-Radiology
 
-<h4 align="center">
+<p align="center">
 
 ✨✨ A curated list of awesome resources, papers, datasets, and tools related to AI in radiology. This repository aims to provide a comprehensive collection of materials to facilitate research, learning, and development in the field of AI-powered radiology.
 
@@ -14,7 +14,7 @@
   <br>
   <em>Image Source: MAIRA-2: Grounded Radiology Report Generation </em>
 </p>
-</h4>
+</p>
 
 ##### Table of Contents
 
