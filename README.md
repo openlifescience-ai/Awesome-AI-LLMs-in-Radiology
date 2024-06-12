@@ -1,4 +1,4 @@
-# Awesome-AI-in-Radiology
+# Awesome-AI/LLMs-in-Radiology
 
 <p align="center">
 
