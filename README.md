@@ -12,7 +12,7 @@
 <p align="center">
   <img width="800" src="https://raw.githubusercontent.com/openlifescience-ai/Awesome-AI-LLMs-in-Radiology/main/images/radio.jpg">
   <br>
-  <em>Image Source: MAIRA-2: Grounded Radiology Report Generation </em>
+  <em>Image Source: A Generalist Learner for Multifaceted Medical Image Interpretation </em>
 </p>
 </p>
 
