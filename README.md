@@ -10,7 +10,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <p align="center">
-  <img width="800" src="https://raw.githubusercontent.com/openlifescience-ai/Awesome-AI-in-Radiology/main/images/radiology.png">
+  <img width="800" src="https://raw.githubusercontent.com/openlifescience-ai/Awesome-AI-LLMs-in-Radiology/main/images/radio.jpg">
   <br>
   <em>Image Source: MAIRA-2: Grounded Radiology Report Generation </em>
 </p>
