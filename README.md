@@ -48,5 +48,6 @@
 ## datasets
 
 - **Radiology Report Expert Evaluation (ReXVal) Dataset**
-  - Feiyang Yu et al., 2023
+  - Feiyang Yu,  Mark Endo,  Rayan Krishnan,  Ian Pan,  Andy Tsai,  Eduardo Pontes Reis,  Eduardo Kaiser Ururahy Nunes Fonseca,  Henrique Lee,  Zahra Shakeri, Andrew Ng, Curtis Langlotz,
+    Vasantha Kumar Venugopal,  Pranav Rajpurkar 
   - [[Dataset]](https://www.physionet.org/content/rexval-dataset/1.0.0/)
