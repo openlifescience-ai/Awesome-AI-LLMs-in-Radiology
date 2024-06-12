@@ -44,8 +44,23 @@
 - **Style-Aware Radiology Report Generation with RadGraph and Few-Shot Prompting**
   - Benjamin Yan, Ruochen Liu, David E. Kuo, Subathra Adithan, Eduardo Pontes Reis, Stephen Kwak, Vasantha Kumar Venugopal, Chloe P. O'Connell, Agustina Saenz, Pranav Rajpurkar, Michael Moor
   - [[Paper]](https://arxiv.org/abs/2310.17811)
- 
 
+ 
+- **RadGraph: Extracting Clinical Entities and Relations from Radiology Reports**
+  - Saahil Jain, Ashwin Agrawal, Adriel Saporta, Steven QH Truong, Du Nguyen Duong, Tan Bui, Pierre Chambon, Yuhao Zhang, Matthew P. Lungren, Andrew Y. Ng, Curtis P. Langlotz, Pranav Rajpurkar
+  - [[Paper]](https://arxiv.org/pdf/2106.14463)
+ 
+ 
+- **Radiology-GPT: A Large Language Model for Radiology**
+  - Zhengliang Liu, Aoxiao Zhong, Yiwei Li, Longtao Yang, Chao Ju, Zihao Wu, Chong Ma, Peng Shu, Cheng Chen, Sekeun Kim, Haixing Dai, Lin Zhao, Lichao Sun, Dajiang Zhu, Jun Liu, Wei Liu,
+    Dinggang Shen, Xiang Li, Quanzheng Li, Tianming Liu
+  - [[Paper]](https://arxiv.org/abs/2306.08666)
+ 
+- **Towards a clinically accessible radiology foundation model: open-access and lightweight, with automated evaluation**
+  - Juan Manuel Zambrano Chaves, Shih-Cheng Huang, Yanbo Xu, Hanwen Xu, Naoto Usuyama, Sheng Zhang, Fei Wang, Yujia Xie, Mahmoud Khademi, Ziyi Yang, Hany Awadalla, Julia Gong, Houdong Hu,
+    Jianwei Yang, Chunyuan Li, Jianfeng Gao, Yu Gu, Cliff Wong, Mu Wei, Tristan Naumann, Muhao Chen, Matthew P. Lungren, Serena Yeung-Levy, Curtis P. Langlotz, Sheng Wang, Hoifung Poon
+  - [[Paper]](https://arxiv.org/abs/2403.08002)
+ 
 
 ## datasets
 
