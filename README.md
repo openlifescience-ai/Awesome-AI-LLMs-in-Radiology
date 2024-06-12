@@ -28,11 +28,13 @@
 ## Papers
 
 - **MAIRA-1: A specialised large multimodal model for radiology report generation**
-  - Stephanie L. Hyland et al., 2023
+  - Stephanie L. Hyland, Shruthi Bannur, Kenza Bouzid, Daniel C. Castro, Mercy Ranjit, Anton Schwaighofer, Fernando Pérez-García, Valentina Salvatelli, Shaury Srivastav, Anja Thieme, Noel
+    Codella, Matthew P. Lungren, Maria Teodora Wetscherek, Ozan Oktay, Javier Alvarez-Valle
   - [[Paper]](https://arxiv.org/abs/2311.13668)
   
 - **MAIRA-2: Grounded Radiology Report Generation**
-  - Shruthi Bannur et al., 2024
+  - Shruthi Bannur, Kenza Bouzid, Daniel C. Castro, Anton Schwaighofer, Sam Bond-Taylor, Maximilian Ilse, Fernando Pérez-García, Valentina Salvatelli, Harshita Sharma, Felix Meissen, Mercy
+    Ranjit, Shaury Srivastav, Julia Gong, Fabian Falck, Ozan Oktay, Anja Thieme, Matthew P. Lungren, Maria Teodora Wetscherek, Javier Alvarez-Valle, Stephanie L. Hyland
   - [[Paper]](https://arxiv.org/abs/2406.04449)
  
 - **ORGAN: Observation-Guided Radiology Report Generation via Tree Reasoning**
@@ -40,7 +42,7 @@
   - [[Paper]](https://aclanthology.org/2023.acl-long.451/)
  
 - **Style-Aware Radiology Report Generation with RadGraph and Few-Shot Prompting**
-  - Benjamin Yan et al., 2023
+  - Benjamin Yan, Ruochen Liu, David E. Kuo, Subathra Adithan, Eduardo Pontes Reis, Stephen Kwak, Vasantha Kumar Venugopal, Chloe P. O'Connell, Agustina Saenz, Pranav Rajpurkar, Michael Moor
   - [[Paper]](https://arxiv.org/abs/2310.17811)
  
 
