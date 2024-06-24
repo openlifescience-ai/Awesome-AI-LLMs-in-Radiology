@@ -20,6 +20,9 @@
 
 ## Categories
 
+
+- [Radiology Report Generation and Summarization](#radiology-report-generation-and-summarization)
+- [Vision-Language Models for Medical Imaging](#vision-language-models-for-medical-imaging)
 - [AI for Specific Radiological Tasks](#ai-for-specific-radiological-tasks)
 - [AI-Assisted Diagnosis and Decision Support](#ai-assisted-diagnosis-and-decision-support)
 - [Evaluation Metrics and Benchmarking for AI in Radiology](#evaluation-metrics-and-benchmarking-for-ai-in-radiology)
@@ -27,10 +30,89 @@
 - [Medical Image Synthesis and Augmentation](#medical-image-synthesis-and-augmentation)
 - [Multimodal Learning for Medical Image Analysis](#multimodal-learning-for-medical-image-analysis)
 - [Natural Language Processing for Clinical Reports](#natural-language-processing-for-clinical-reports)
-- [Radiology Report Generation and Summarization](#radiology-report-generation-and-summarization)
-- [Vision-Language Models for Medical Imaging](#vision-language-models-for-medical-imaging)
+
 
 ## Papers
+
+### Radiology Report Generation and Summarization
+
+#### 2024
+
+- [Benchmarking and Boosting Radiology Report Generation for 3D High-Resolution Medical Images](https://arxiv.org/abs/2406.07146) - Che Liu, Zhongwei Wan, Yuqi Wang, Hui Shen, Haozhe Wang, Kangyu Zheng, Mi Zhang, Rossella Arcucci
+- [Direct Preference Optimization for Suppressing Hallucinated Prior Exams in Radiology Report Generation](https://arxiv.org/abs/2406.06496) - Oishi Banerjee, Hong-Yu Zhou, Subathra Adithan, Stephen Kwak, Kay Wu, Pranav Rajpurkar
+- [MAIRA-2: Grounded Radiology Report Generation](https://arxiv.org/abs/2406.04449) - Shruthi Bannur, et al.
+- [RadBARTsum: Domain Specific Adaption of Denoising Sequence-to-Sequence Models for Abstractive Radiology Report Summarization](https://arxiv.org/abs/2406.03062) - Jinge Wu, Abul Hasan, Honghan Wu
+- [Textual Inversion and Self-supervised Refinement for Radiology Report Generation](https://arxiv.org/abs/2405.20607) - Yuanjiang Luo, Hongxiang Li, Xuan Wu, Meng Cao, Xiaoshuang Huang, Zhihong Zhu, Peixi Liao, Hu Chen, Yi Zhang
+- [Structural Entities Extraction and Patient Indications Incorporation for Chest X-ray Report Generation](https://arxiv.org/abs/2405.14905) - Kang Liu, Zhuoqi Ma, Xiaolu Kang, Zhusi Zhong, Zhicheng Jiao, Grayson Baird, Harrison Bai, Qiguang Miao
+- [Multi-modality Regional Alignment Network for Covid X-Ray Survival Prediction and Report Generation](https://arxiv.org/abs/2405.14113) - Zhusi Zhong, Jie Li, John Sollee, Scott Collins, Harrison Bai, Paul Zhang, Terrence Healey, Michael Atalay, Xinbo Gao, Zhicheng Jiao
+- [A Survey of Deep Learning-based Radiology Report Generation Using Multimodal Data](https://arxiv.org/abs/2405.12833) - Xinyi Wang, Grazziela Figueredo, Ruizhe Li, Wei Emma Zhang, Weitong Chen, Xin Chen
+- [Automated Radiology Report Generation: A Review of Recent Advances](https://arxiv.org/abs/2405.10842) - Phillip Sloan, Philip Clatworthy, Edwin Simpson, Majid Mirmehdi
+- [Topicwise Separable Sentence Retrieval for Medical Report Generation](https://arxiv.org/abs/2405.04175) - Junting Zhao, Yang Zhou, Zhihao Chen, Huazhu Fu, Liang Wan
+- [FITA: Fine-grained Image-Text Aligner for Radiology Report Generation](https://arxiv.org/abs/2405.00962) - Honglong Yang, Hui Tang, Xiaomeng Li
+- [Expert Insight-Enhanced Follow-up Chest X-Ray Summary Generation](https://arxiv.org/abs/2405.00344) - Zhichuan Wang, Kinhei Lee, Qiao Deng, Tiffany Y. So, Wan Hang Chiu, Yeung Yu Hui, Bingjing Zhou, Edward S. Hui
+- [SERPENT-VLM : Self-Refining Radiology Report Generation Using Vision Language Models](https://arxiv.org/abs/2404.17912) - Manav Nitin Kapadnis, Sohan Patnaik, Abhilash Nandy, Sourjyadip Ray, Pawan Goyal, Debdoot Sheet
+- [MRScore: Evaluating Radiology Report Generation with LLM-based Reward System](https://arxiv.org/abs/2404.17778) - Yunyi Liu, Zhanyu Wang, Yingshu Li, Xinyu Liang, Lingqiao Liu, Lei Wang, Luping Zhou
+- [Memory-based Cross-modal Semantic Alignment Network for Radiology Report Generation](https://arxiv.org/abs/2404.00588) - Yitian Tao, Liyan Ma, Jing Yu, Han Zhang
+- [CT2Rep: Automated Radiology Report Generation for 3D Medical Imaging](https://arxiv.org/abs/2403.06801) - Ibrahim Ethem Hamamci, Sezgin Er, Bjoern Menze
+- [Large Model driven Radiology Report Generation with Clinical Quality Reinforcement Learning](https://arxiv.org/abs/2403.06728) - Zijian Zhou, Miaojing Shi, Meng Wei, Oluwatosin Alabi, Zijie Yue, Tom Vercauteren
+- [Scene Graph Aided Radiology Report Generation](https://arxiv.org/abs/2403.05687) - Jun Wang, Lixing Zhu, Abhir Bhalerao, Yulan He
+- [ICON: Improving Inter-Report Consistency of Radiology Report Generation via Lesion-aware Mix-up Augmentation](https://arxiv.org/abs/2402.12844) - Wenjun Hou, Yi Cheng, Kaishuai Xu, Yan Hu, Wenjie Li, Jiang Liu
+
+#### 2023
+
+- [Pragmatic Radiology Report Generation](https://arxiv.org/abs/2311.17154) - Dang Nguyen, Chacha Chen, He He, Chenhao Tan
+- [A Systematic Review of Deep Learning-based Research on Radiology Report Generation](https://arxiv.org/abs/2311.14199) - Chang Liu, Yuanhe Tian, Yan Song
+- [MAIRA-1: A specialised large multimodal model for radiology report generation](https://arxiv.org/abs/2311.13668) - Stephanie L. Hyland, Shruthi Bannur, Kenza Bouzid, Daniel C. Castro, Mercy Ranjit, Anton Schwaighofer, Fernando Pérez-García, Valentina Salvatelli, Shaury Srivastav, Anja Thieme, Noel Codella, Matthew P. Lungren, Maria Teodora Wetscherek, Ozan Oktay, Javier Alvarez-Valle
+- [FaMeSumm: Investigating and Improving Faithfulness of Medical Summarization](https://arxiv.org/abs/2311.02271) - Nan Zhang, Yusen Zhang, Wu Guo, Prasenjit Mitra, Rui Zhang
+- [Enhanced Knowledge Injection for Radiology Report Generation](https://arxiv.org/abs/2311.00399) - Qingqiu Li, Jilan Xu, Runtian Yuan, Mohan Chen, Yuejie Zhang, Rui Feng, Xiaobo Zhang, Shang Gao
+- [Style-Aware Radiology Report Generation with RadGraph and Few-Shot Prompting](https://arxiv.org/abs/2310.17811) - Benjamin Yan, Ruochen Liu, David E. Kuo, Subathra Adithan, Eduardo Pontes Reis, Stephen Kwak, Vasantha Kumar Venugopal, Chloe P. O'Connell, Agustina Saenz, Pranav Rajpurkar, Michael Moor
+- [Automated Chest X-Ray Report Generator Using Multi-Model Deep Learning Approach](https://arxiv.org/abs/2310.05969) - Arief Purnama Muharram, Hollyana Puteri Haryono, Abassi Haji Juma, Ira Puspasari, Nugraha Priya Utama
+- [Dynamic Multi-Domain Knowledge Networks for Chest X-ray Report Generation](https://arxiv.org/abs/2310.05119) - Weihua Liu, Youyuan Xue, Chaochao Lin, Said Boumaraf
+- [Can Prompt Learning Benefit Radiology Report Generation?](https://arxiv.org/abs/2308.16269) - Jun Wang, Lixing Zhu, Abhir Bhalerao, Yulan He
+- [Fact-Checking of AI-Generated Reports](https://arxiv.org/abs/2307.14634) - Razi Mahmood, Ge Wang, Mannudeep Kalra, Pingkun Yan
+- [Reading Radiology Imaging Like The Radiologist](https://arxiv.org/abs/2307.05921) - Yuhao Wang
+- [Replace and Report: NLP Assisted Radiology Report Generation](https://arxiv.org/abs/2306.17180) - Kaveri Kale, pushpak Bhattacharyya, Kshitij Jadhav
+- [Utilizing Longitudinal Chest X-Rays and Reports to Pre-Fill Radiology Reports](https://arxiv.org/abs/2306.08749) - Qingqing Zhu, Tejas Sudharshan Mathai, Pritam Mukherjee, Yifan Peng, Ronald M. Summers, Zhiyong Lu
+- [Consensus, dissensus and synergy between clinicians and specialist foundation models in radiology report generation](https://arxiv.org/abs/2311.18260) - Ryutaro Tanno, et al.
+- [An Iterative Optimizing Framework for Radiology Report Summarization with ChatGPT](https://arxiv.org/abs/2304.08448) - Chong Ma, Zihao Wu, Jiaqi Wang, Shaochen Xu, Yaonai Wei, Fang Zeng, Zhengliang Liu, Xi Jiang, Lei Guo, Xiaoyan Cai, Shu Zhang, Tuo Zhang, Dajiang Zhu, Dinggang Shen, Tianming Liu, Xiang Li
+
+#### 2022
+
+- [DeltaNet:Conditional Medical Report Generation for COVID-19 Diagnosis](https://arxiv.org/abs/2211.13229) - Xian Wu, Shuxin Yang, Zhaopeng Qiu, Shen Ge, Yangtian Yan, Xingwang Wu, Yefeng Zheng, S. Kevin Zhou, Li Xiao
+
+#### 2020
+
+- [When Radiology Report Generation Meets Knowledge Graph](https://arxiv.org/abs/2002.08277) - Yixiao Zhang, Xiaosong Wang, Ziyue Xu, Qihang Yu, Alan Yuille, Daguang Xu
+
+### Vision-Language Models for Medical Imaging
+
+#### 2024
+
+- [UIT-DarkCow team at ImageCLEFmedical Caption 2024: Diagnostic Captioning for Radiology Images Efficiency with Transformer Models](https://arxiv.org/abs/2405.17002) - Quan Van Nguyen, Huy Quang Pham, Dan Quang Tran, Thang Kien-Bao Nguyen, Nhat-Hao Nguyen-Dang, Bao-Thien Nguyen-Tat
+- [MedRG: Medical Report Grounding with Multi-modal Large Language Model](https://arxiv.org/abs/2404.06798) - Ke Zou, Yang Bai, Zhihao Chen, Yang Zhou, Yidi Chen, Kai Ren, Meng Wang, Xuedong Yuan, Xiaojing Shen, Huazhu Fu
+- [DeViDe: Faceted medical knowledge for improved medical vision-language pre-training](https://arxiv.org/abs/2404.03618) - Haozhe Luo, Ziyu Zhou, Corentin Royer, Anjany Sekuboyina, Bjoern Menze
+- [Multimodal Healthcare AI: Identifying and Designing Clinically Relevant Vision-Language Applications for Radiology](https://arxiv.org/abs/2402.14252) - Nur Yildirim, et al.
+- [MedDr: Diagnosis-Guided Bootstrapping for Large-Scale Medical Vision-Language Learning](https://arxiv.org/abs/2404.15127) - Sunan He, Yuxiang Nie, Zhixuan Chen, Zhiyuan Cai, Hongmei Wang, Shu Yang, Hao Chen
+- [CheXagent: Towards a Foundation Model for Chest X-Ray Interpretation](https://arxiv.org/abs/2401.12208) - Zhihong Chen, Maya Varma, Jean-Benoit Delbrouck, Magdalini Paschali, Louis Blankemeier, Dave Van Veen, Jeya Maria Jose Valanarasu, Alaa Youssef, Joseph Paul Cohen, Eduardo Pontes Reis, Emily B. Tsai, Andrew Johnston, Cameron Olsen, Tanishq Mathew Abraham, Sergios Gatidis, Akshay S. Chaudhari, Curtis Langlotz
+
+#### 2023
+
+- [RaDialog: A Large Vision-Language Model for Radiology Report Generation and Conversational Assistance](https://arxiv.org/abs/2311.18681) - Chantal Pellegrini, Ege Özsoy, Benjamin Busam, Nassir Navab, Matthias Keicher
+- [IQAGPT: Image Quality Assessment with Vision-language and ChatGPT Models](https://arxiv.org/abs/2312.15663) - Zhihao Chen, Bin Hu, Chuang Niu, Tao Chen, Yuxin Li, Hongming Shan, Ge Wang
+- [T3D: Towards 3D Medical Image Understanding through Vision-Language Pre-training](https://arxiv.org/abs/2312.01529) - Che Liu, Cheng Ouyang, Yinda Chen, Cesar César Quilodrán-Casas, Lei Ma, Jie Fu, Yike Guo, Anand Shah, Wenjia Bai, Rossella Arcucci
+- [CXR-CLIP: Toward Large Scale Chest X-ray Language-Image Pre-training](https://arxiv.org/abs/2310.13292) - Kihyun You, Jawook Gu, Jiyeon Ham, Beomhee Park, Jiho Kim, Eun Kyoung Hong, Woonhyunk Baek, Byungseok Roh
+- [Utilizing Synthetic Data for Medical Vision-Language Pre-training: Bypassing the Need for Real Images](https://arxiv.org/abs/2310.07027) - Che Liu, Anand Shah, Wenjia Bai, Rossella Arcucci
+- [XrayGPT: Chest Radiographs Summarization using Medical Vision-Language Models](https://arxiv.org/abs/2306.07971) - Omkar Thawkar, Abdelrahman Shaker, Sahal Shaji Mullappilly, Hisham Cholakkal, Rao Muhammad Anwer, Salman Khan, Jorma Laaksonen, Fahad Shahbaz Khan
+- [ConTEXTual Net: A Multimodal Vision-Language Model for Segmentation of Pneumothorax](https://arxiv.org/abs/2303.01615) - Zachary Huemann, Xin Tie, Junjie Hu, Tyler J. Bradshaw
+
+#### 2022
+
+- [RoentGen: Vision-Language Foundation Model for Chest X-ray Generation](https://arxiv.org/abs/2211.12737) - Pierre Chambon, Christian Bluethgen, Jean-Benoit Delbrouck, Rogier Van der Sluijs, Małgorzata Połacin, Juan Manuel Zambrano Chaves, Tanishq Mathew Abraham, Shivanshu Purohit, Curtis P. Langlotz, Akshay Chaudhari
+- [Making the Most of Text Semantics to Improve Biomedical Vision--Language Processing](https://arxiv.org/abs/2204.09817) - Benedikt Boecking, Naoto Usuyama, Shruthi Bannur, Daniel C. Castro, Anton Schwaighofer, Stephanie Hyland, Maria Wetscherek, Tristan Naumann, Aditya Nori, Javier Alvarez-Valle, Hoifung Poon, Ozan Oktay
+
+#### 2021
+
+- [Multi-modal Understanding and Generation for Medical Images and Text via Vision-Language Pre-Training](https://arxiv.org/abs/2105.11333) - Jong Hak Moon, Hyungyung Lee, Woncheol Shin, Young-Hak Kim, Edward Choi
 
 ### AI for Specific Radiological Tasks
 
@@ -158,82 +240,4 @@
 
 - [NegBio: a high-performance tool for negation and uncertainty detection in radiology reports](https://arxiv.org/abs/1712.05898) - Yifan Peng, Xiaosong Wang, Le Lu, Mohammadhadi Bagheri, Ronald Summers, Zhiyong Lu
 
-### Radiology Report Generation and Summarization
 
-#### 2024
-
-- [Benchmarking and Boosting Radiology Report Generation for 3D High-Resolution Medical Images](https://arxiv.org/abs/2406.07146) - Che Liu, Zhongwei Wan, Yuqi Wang, Hui Shen, Haozhe Wang, Kangyu Zheng, Mi Zhang, Rossella Arcucci
-- [Direct Preference Optimization for Suppressing Hallucinated Prior Exams in Radiology Report Generation](https://arxiv.org/abs/2406.06496) - Oishi Banerjee, Hong-Yu Zhou, Subathra Adithan, Stephen Kwak, Kay Wu, Pranav Rajpurkar
-- [MAIRA-2: Grounded Radiology Report Generation](https://arxiv.org/abs/2406.04449) - Shruthi Bannur, et al.
-- [RadBARTsum: Domain Specific Adaption of Denoising Sequence-to-Sequence Models for Abstractive Radiology Report Summarization](https://arxiv.org/abs/2406.03062) - Jinge Wu, Abul Hasan, Honghan Wu
-- [Textual Inversion and Self-supervised Refinement for Radiology Report Generation](https://arxiv.org/abs/2405.20607) - Yuanjiang Luo, Hongxiang Li, Xuan Wu, Meng Cao, Xiaoshuang Huang, Zhihong Zhu, Peixi Liao, Hu Chen, Yi Zhang
-- [Structural Entities Extraction and Patient Indications Incorporation for Chest X-ray Report Generation](https://arxiv.org/abs/2405.14905) - Kang Liu, Zhuoqi Ma, Xiaolu Kang, Zhusi Zhong, Zhicheng Jiao, Grayson Baird, Harrison Bai, Qiguang Miao
-- [Multi-modality Regional Alignment Network for Covid X-Ray Survival Prediction and Report Generation](https://arxiv.org/abs/2405.14113) - Zhusi Zhong, Jie Li, John Sollee, Scott Collins, Harrison Bai, Paul Zhang, Terrence Healey, Michael Atalay, Xinbo Gao, Zhicheng Jiao
-- [A Survey of Deep Learning-based Radiology Report Generation Using Multimodal Data](https://arxiv.org/abs/2405.12833) - Xinyi Wang, Grazziela Figueredo, Ruizhe Li, Wei Emma Zhang, Weitong Chen, Xin Chen
-- [Automated Radiology Report Generation: A Review of Recent Advances](https://arxiv.org/abs/2405.10842) - Phillip Sloan, Philip Clatworthy, Edwin Simpson, Majid Mirmehdi
-- [Topicwise Separable Sentence Retrieval for Medical Report Generation](https://arxiv.org/abs/2405.04175) - Junting Zhao, Yang Zhou, Zhihao Chen, Huazhu Fu, Liang Wan
-- [FITA: Fine-grained Image-Text Aligner for Radiology Report Generation](https://arxiv.org/abs/2405.00962) - Honglong Yang, Hui Tang, Xiaomeng Li
-- [Expert Insight-Enhanced Follow-up Chest X-Ray Summary Generation](https://arxiv.org/abs/2405.00344) - Zhichuan Wang, Kinhei Lee, Qiao Deng, Tiffany Y. So, Wan Hang Chiu, Yeung Yu Hui, Bingjing Zhou, Edward S. Hui
-- [SERPENT-VLM : Self-Refining Radiology Report Generation Using Vision Language Models](https://arxiv.org/abs/2404.17912) - Manav Nitin Kapadnis, Sohan Patnaik, Abhilash Nandy, Sourjyadip Ray, Pawan Goyal, Debdoot Sheet
-- [MRScore: Evaluating Radiology Report Generation with LLM-based Reward System](https://arxiv.org/abs/2404.17778) - Yunyi Liu, Zhanyu Wang, Yingshu Li, Xinyu Liang, Lingqiao Liu, Lei Wang, Luping Zhou
-- [Memory-based Cross-modal Semantic Alignment Network for Radiology Report Generation](https://arxiv.org/abs/2404.00588) - Yitian Tao, Liyan Ma, Jing Yu, Han Zhang
-- [CT2Rep: Automated Radiology Report Generation for 3D Medical Imaging](https://arxiv.org/abs/2403.06801) - Ibrahim Ethem Hamamci, Sezgin Er, Bjoern Menze
-- [Large Model driven Radiology Report Generation with Clinical Quality Reinforcement Learning](https://arxiv.org/abs/2403.06728) - Zijian Zhou, Miaojing Shi, Meng Wei, Oluwatosin Alabi, Zijie Yue, Tom Vercauteren
-- [Scene Graph Aided Radiology Report Generation](https://arxiv.org/abs/2403.05687) - Jun Wang, Lixing Zhu, Abhir Bhalerao, Yulan He
-- [ICON: Improving Inter-Report Consistency of Radiology Report Generation via Lesion-aware Mix-up Augmentation](https://arxiv.org/abs/2402.12844) - Wenjun Hou, Yi Cheng, Kaishuai Xu, Yan Hu, Wenjie Li, Jiang Liu
-
-#### 2023
-
-- [Pragmatic Radiology Report Generation](https://arxiv.org/abs/2311.17154) - Dang Nguyen, Chacha Chen, He He, Chenhao Tan
-- [A Systematic Review of Deep Learning-based Research on Radiology Report Generation](https://arxiv.org/abs/2311.14199) - Chang Liu, Yuanhe Tian, Yan Song
-- [MAIRA-1: A specialised large multimodal model for radiology report generation](https://arxiv.org/abs/2311.13668) - Stephanie L. Hyland, Shruthi Bannur, Kenza Bouzid, Daniel C. Castro, Mercy Ranjit, Anton Schwaighofer, Fernando Pérez-García, Valentina Salvatelli, Shaury Srivastav, Anja Thieme, Noel Codella, Matthew P. Lungren, Maria Teodora Wetscherek, Ozan Oktay, Javier Alvarez-Valle
-- [FaMeSumm: Investigating and Improving Faithfulness of Medical Summarization](https://arxiv.org/abs/2311.02271) - Nan Zhang, Yusen Zhang, Wu Guo, Prasenjit Mitra, Rui Zhang
-- [Enhanced Knowledge Injection for Radiology Report Generation](https://arxiv.org/abs/2311.00399) - Qingqiu Li, Jilan Xu, Runtian Yuan, Mohan Chen, Yuejie Zhang, Rui Feng, Xiaobo Zhang, Shang Gao
-- [Style-Aware Radiology Report Generation with RadGraph and Few-Shot Prompting](https://arxiv.org/abs/2310.17811) - Benjamin Yan, Ruochen Liu, David E. Kuo, Subathra Adithan, Eduardo Pontes Reis, Stephen Kwak, Vasantha Kumar Venugopal, Chloe P. O'Connell, Agustina Saenz, Pranav Rajpurkar, Michael Moor
-- [Automated Chest X-Ray Report Generator Using Multi-Model Deep Learning Approach](https://arxiv.org/abs/2310.05969) - Arief Purnama Muharram, Hollyana Puteri Haryono, Abassi Haji Juma, Ira Puspasari, Nugraha Priya Utama
-- [Dynamic Multi-Domain Knowledge Networks for Chest X-ray Report Generation](https://arxiv.org/abs/2310.05119) - Weihua Liu, Youyuan Xue, Chaochao Lin, Said Boumaraf
-- [Can Prompt Learning Benefit Radiology Report Generation?](https://arxiv.org/abs/2308.16269) - Jun Wang, Lixing Zhu, Abhir Bhalerao, Yulan He
-- [Fact-Checking of AI-Generated Reports](https://arxiv.org/abs/2307.14634) - Razi Mahmood, Ge Wang, Mannudeep Kalra, Pingkun Yan
-- [Reading Radiology Imaging Like The Radiologist](https://arxiv.org/abs/2307.05921) - Yuhao Wang
-- [Replace and Report: NLP Assisted Radiology Report Generation](https://arxiv.org/abs/2306.17180) - Kaveri Kale, pushpak Bhattacharyya, Kshitij Jadhav
-- [Utilizing Longitudinal Chest X-Rays and Reports to Pre-Fill Radiology Reports](https://arxiv.org/abs/2306.08749) - Qingqing Zhu, Tejas Sudharshan Mathai, Pritam Mukherjee, Yifan Peng, Ronald M. Summers, Zhiyong Lu
-- [Consensus, dissensus and synergy between clinicians and specialist foundation models in radiology report generation](https://arxiv.org/abs/2311.18260) - Ryutaro Tanno, et al.
-- [An Iterative Optimizing Framework for Radiology Report Summarization with ChatGPT](https://arxiv.org/abs/2304.08448) - Chong Ma, Zihao Wu, Jiaqi Wang, Shaochen Xu, Yaonai Wei, Fang Zeng, Zhengliang Liu, Xi Jiang, Lei Guo, Xiaoyan Cai, Shu Zhang, Tuo Zhang, Dajiang Zhu, Dinggang Shen, Tianming Liu, Xiang Li
-
-#### 2022
-
-- [DeltaNet:Conditional Medical Report Generation for COVID-19 Diagnosis](https://arxiv.org/abs/2211.13229) - Xian Wu, Shuxin Yang, Zhaopeng Qiu, Shen Ge, Yangtian Yan, Xingwang Wu, Yefeng Zheng, S. Kevin Zhou, Li Xiao
-
-#### 2020
-
-- [When Radiology Report Generation Meets Knowledge Graph](https://arxiv.org/abs/2002.08277) - Yixiao Zhang, Xiaosong Wang, Ziyue Xu, Qihang Yu, Alan Yuille, Daguang Xu
-
-### Vision-Language Models for Medical Imaging
-
-#### 2024
-
-- [UIT-DarkCow team at ImageCLEFmedical Caption 2024: Diagnostic Captioning for Radiology Images Efficiency with Transformer Models](https://arxiv.org/abs/2405.17002) - Quan Van Nguyen, Huy Quang Pham, Dan Quang Tran, Thang Kien-Bao Nguyen, Nhat-Hao Nguyen-Dang, Bao-Thien Nguyen-Tat
-- [MedRG: Medical Report Grounding with Multi-modal Large Language Model](https://arxiv.org/abs/2404.06798) - Ke Zou, Yang Bai, Zhihao Chen, Yang Zhou, Yidi Chen, Kai Ren, Meng Wang, Xuedong Yuan, Xiaojing Shen, Huazhu Fu
-- [DeViDe: Faceted medical knowledge for improved medical vision-language pre-training](https://arxiv.org/abs/2404.03618) - Haozhe Luo, Ziyu Zhou, Corentin Royer, Anjany Sekuboyina, Bjoern Menze
-- [Multimodal Healthcare AI: Identifying and Designing Clinically Relevant Vision-Language Applications for Radiology](https://arxiv.org/abs/2402.14252) - Nur Yildirim, et al.
-- [MedDr: Diagnosis-Guided Bootstrapping for Large-Scale Medical Vision-Language Learning](https://arxiv.org/abs/2404.15127) - Sunan He, Yuxiang Nie, Zhixuan Chen, Zhiyuan Cai, Hongmei Wang, Shu Yang, Hao Chen
-- [CheXagent: Towards a Foundation Model for Chest X-Ray Interpretation](https://arxiv.org/abs/2401.12208) - Zhihong Chen, Maya Varma, Jean-Benoit Delbrouck, Magdalini Paschali, Louis Blankemeier, Dave Van Veen, Jeya Maria Jose Valanarasu, Alaa Youssef, Joseph Paul Cohen, Eduardo Pontes Reis, Emily B. Tsai, Andrew Johnston, Cameron Olsen, Tanishq Mathew Abraham, Sergios Gatidis, Akshay S. Chaudhari, Curtis Langlotz
-
-#### 2023
-
-- [RaDialog: A Large Vision-Language Model for Radiology Report Generation and Conversational Assistance](https://arxiv.org/abs/2311.18681) - Chantal Pellegrini, Ege Özsoy, Benjamin Busam, Nassir Navab, Matthias Keicher
-- [IQAGPT: Image Quality Assessment with Vision-language and ChatGPT Models](https://arxiv.org/abs/2312.15663) - Zhihao Chen, Bin Hu, Chuang Niu, Tao Chen, Yuxin Li, Hongming Shan, Ge Wang
-- [T3D: Towards 3D Medical Image Understanding through Vision-Language Pre-training](https://arxiv.org/abs/2312.01529) - Che Liu, Cheng Ouyang, Yinda Chen, Cesar César Quilodrán-Casas, Lei Ma, Jie Fu, Yike Guo, Anand Shah, Wenjia Bai, Rossella Arcucci
-- [CXR-CLIP: Toward Large Scale Chest X-ray Language-Image Pre-training](https://arxiv.org/abs/2310.13292) - Kihyun You, Jawook Gu, Jiyeon Ham, Beomhee Park, Jiho Kim, Eun Kyoung Hong, Woonhyunk Baek, Byungseok Roh
-- [Utilizing Synthetic Data for Medical Vision-Language Pre-training: Bypassing the Need for Real Images](https://arxiv.org/abs/2310.07027) - Che Liu, Anand Shah, Wenjia Bai, Rossella Arcucci
-- [XrayGPT: Chest Radiographs Summarization using Medical Vision-Language Models](https://arxiv.org/abs/2306.07971) - Omkar Thawkar, Abdelrahman Shaker, Sahal Shaji Mullappilly, Hisham Cholakkal, Rao Muhammad Anwer, Salman Khan, Jorma Laaksonen, Fahad Shahbaz Khan
-- [ConTEXTual Net: A Multimodal Vision-Language Model for Segmentation of Pneumothorax](https://arxiv.org/abs/2303.01615) - Zachary Huemann, Xin Tie, Junjie Hu, Tyler J. Bradshaw
-
-#### 2022
-
-- [RoentGen: Vision-Language Foundation Model for Chest X-ray Generation](https://arxiv.org/abs/2211.12737) - Pierre Chambon, Christian Bluethgen, Jean-Benoit Delbrouck, Rogier Van der Sluijs, Małgorzata Połacin, Juan Manuel Zambrano Chaves, Tanishq Mathew Abraham, Shivanshu Purohit, Curtis P. Langlotz, Akshay Chaudhari
-- [Making the Most of Text Semantics to Improve Biomedical Vision--Language Processing](https://arxiv.org/abs/2204.09817) - Benedikt Boecking, Naoto Usuyama, Shruthi Bannur, Daniel C. Castro, Anton Schwaighofer, Stephanie Hyland, Maria Wetscherek, Tristan Naumann, Aditya Nori, Javier Alvarez-Valle, Hoifung Poon, Ozan Oktay
-
-#### 2021
-
-- [Multi-modal Understanding and Generation for Medical Images and Text via Vision-Language Pre-Training](https://arxiv.org/abs/2105.11333) - Jong Hak Moon, Hyungyung Lee, Woncheol Shin, Young-Hak Kim, Edward Choi
