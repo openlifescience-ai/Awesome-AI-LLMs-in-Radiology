@@ -4,6 +4,12 @@
 
 ✨✨ A curated list of awesome resources, papers, datasets, and tools related to AI in radiology. This repository aims to provide a comprehensive collection of materials to facilitate research, learning, and development in the field of AI-powered radiology.
 
+<h4 align="center">
+  <a href="https://t.co/vkvJli6ZP7">
+    <img src="https://img.shields.io/badge/Join-Community-blue" alt="Community" height="30"/>
+  </a>
+</h4>
+
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/monk1337/Awesome-Medical-Multimodal-Large-Language-Models)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
